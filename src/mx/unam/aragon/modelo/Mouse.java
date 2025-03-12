@@ -7,6 +7,9 @@ public class Mouse {
     private int dpi;
     private boolean inalambrico;
 
+    public Mouse (){
+
+    }
     public Mouse (String color, String marca, String tipo,int dpi,boolean inalambrico){
         this.color=color;
         this.marca=marca;
@@ -53,5 +56,16 @@ public class Mouse {
 
     public void setInalambrico(boolean inalambrico) {
         this.inalambrico = inalambrico;
+    }
+
+    @Override
+    public String toString() {
+        return "Mouse{" +
+                "color='" + color + '\'' +
+                ", marca='" + marca + '\'' +
+                ", tipo='" + tipo + '\'' +
+                ", dpi=" + dpi +
+                ", inalambrico=" + inalambrico +
+                '}';
     }
 }

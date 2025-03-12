@@ -14,6 +14,9 @@ public class Bocina {
         this.impedancia=impedancia;
         this.voltaje=voltaje;
     }
+    public Bocina(){
+
+    }
 
     public double getDecibeles() {
         return decibeles;
@@ -53,5 +56,16 @@ public class Bocina {
 
     public void setVoltaje(double voltaje) {
         this.voltaje = voltaje;
+    }
+
+    @Override
+    public String toString() {
+        return "Bocina{" +
+                "decibeles=" + decibeles +
+                ", marca='" + marca + '\'' +
+                ", diametro=" + diametro +
+                ", impedancia=" + impedancia +
+                ", voltaje=" + voltaje +
+                '}';
     }
 }
