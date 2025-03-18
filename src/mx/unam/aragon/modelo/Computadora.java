@@ -3,7 +3,7 @@ package mx.unam.aragon.modelo;
 public class Computadora {
     private Mouse mouse;
     private Bocina bocina;
-    private Monitor[] monitor=new Monitor[3];
+    private Monitor[] monitor=new Monitor[2];
     private Teclado teclado;
     private Procesador procesador;
 
