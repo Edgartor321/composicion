@@ -22,6 +22,9 @@ public class Inicio {
         pc.setProcesador(cpu);
         System.out.println(pc.getTeclado());
         System.out.println(pc.getProcesador());
+        System.out.println();
+
+        System.out.println(pc.toString());
 
 
 
