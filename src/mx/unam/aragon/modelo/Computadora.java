@@ -1,5 +1,7 @@
 package mx.unam.aragon.modelo;
 
+import java.util.Arrays;
+
 public class Computadora {
     private Mouse mouse;
     private Bocina bocina;
@@ -48,5 +50,16 @@ public class Computadora {
 
     public void setProcesador(Procesador procesador) {
         this.procesador = procesador;
+    }
+
+    @Override
+    public String toString() {
+        return "Computadora{" +
+                "mouse=" + mouse +
+                ", bocina=" + bocina +
+                ", monitor=" + Arrays.toString(monitor) +
+                ", teclado=" + teclado +
+                ", procesador=" + procesador +
+                '}';
     }
 }
